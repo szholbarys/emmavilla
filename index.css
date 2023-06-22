@@ -1,0 +1,72 @@
+ *{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.head{
+    position: relative;
+    text-align: center;
+}
+.logo{
+    color: black;
+    font-family: 'Pecita', sans-serif;
+    /* font-size: 40px;  */
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(12px, 1.5vw, 30px);
+
+}
+.container{
+    width: 100%;
+    padding: 50px;   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.text{
+    display: flex;
+    padding: 50px;
+}
+.text h1{
+    font-family: "Bitstream Iowan Old Style";
+    font-size: clamp(12px, 1.5vw, 30px);
+}
+.text p{
+    margin-top: 30px;
+    font-family: 'Cardo', serif;
+    font-size: 25px;
+    font-size: clamp(12px, 1.5vw, 30px);
+}
+
+.villa{
+    margin-top: 100px;
+}
+
+footer img{ 
+    padding-top: 100px;
+}
+
+.footer-container{
+    position: relative;
+    text-align: center;
+}
+.footer-text{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    word-spacing: 30px;
+}
+.footer-text a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Pecita', sans-serif;
+    /* font-size: 30px;            */
+    font-size: clamp(12px, 1.5vw, 30px);
+                              
+}
+
